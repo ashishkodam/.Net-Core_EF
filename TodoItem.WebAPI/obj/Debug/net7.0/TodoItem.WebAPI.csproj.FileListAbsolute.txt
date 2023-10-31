@@ -42,3 +42,4 @@ C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.WebAPI\bin\Deb
 C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.WebAPI\bin\Debug\net7.0\Npgsql.dll
 C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.WebAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.WebAPI\bin\Debug\net7.0\Dapper.dll

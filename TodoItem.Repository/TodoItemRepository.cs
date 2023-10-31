@@ -1,73 +1,73 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Dapper;
+using Npgsql;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Data;
 using System.Threading.Tasks;
+using TodoItem.Repository;
+using TodoItem.Shared.Model;
 
 namespace TodoItem.Repository
 {
     using TodoItem.Shared.Model;
 
-    public class TodoItemRepository: ITodoItemRepository
+    public class TodoItemRepository : ITodoItemRepository
     {
 
-        private List<TodoItem> _todoItem = new List<TodoItem>();
+        private readonly string _connectionString;
 
-        private readonly TodoItemContext _context;
-
-        public TodoItemRepository(TodoItemContext context)
+        public TodoItemRepository(string connectionString)
         {
-
-            _context = context;
-
+            _connectionString = connectionString;
         }
 
         public TodoItem Create(TodoItem todoItem)
         {
-            bool result = _context.TodoItems.Any(x => x.Id > 0);
-            todoItem.Id = _context.TodoItems.Max(t => t.Id) + 1;
-            var test = _context.TodoItems.Add(todoItem);
-            var res = _context.SaveChangesAsync();
+            using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+            dbConnection.Open();
+
+            var sql = "INSERT INTO \"TodoItems\" (\"Name\", \"IsComplete\") VALUES (@Name, @IsComplete) RETURNING \"Id\"";
+            var id = dbConnection.ExecuteScalar<int>(sql, todoItem);
+
+            todoItem.Id = id;
             return todoItem;
-
-
         }
 
         public TodoItem Get(int id)
         {
-            return _context.TodoItems.FirstOrDefault(t => t.Id == id);
+            using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+            dbConnection.Open();
 
+            var sql = "SELECT * FROM \"TodoItems\" WHERE \"Id\" = @Id";
+            return dbConnection.QuerySingleOrDefault<TodoItem>(sql, new { Id = id });
         }
 
         public async Task<List<TodoItem>> GetAll()
         {
-            return await _context.TodoItems.ToListAsync();
+            using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+            dbConnection.Open();
+
+            var sql = "SELECT * FROM \"TodoItems\"";
+            return (await dbConnection.QueryAsync<TodoItem>(sql)).AsList();
         }
 
         public TodoItem Update(TodoItem todoItem)
         {
-            var existingTodoItem = _context.TodoItems.FirstOrDefault(t => t.Id == todoItem.Id);
-            if (existingTodoItem != null)
-            {
-                existingTodoItem.Name = todoItem.Name;
-                existingTodoItem.IsComplete = todoItem.IsComplete;
-            }
-            return existingTodoItem;
+            using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+            dbConnection.Open();
 
+            var sql = "UPDATE \"TodoItems\" SET \"Name\" = @Name, \"IsComplete\" = @IsComplete WHERE \"Id\" = @Id";
+            dbConnection.Execute(sql, todoItem);
+            return todoItem;
         }
 
         public bool Delete(int id)
         {
-            var todoItemToRemove = _context.TodoItems.FirstOrDefault(t => t.Id == id);
-            if (todoItemToRemove != null)
-            {
-                _context.TodoItems.Remove(todoItemToRemove);
-                return true;
-            }
-            return false;
-        }
+            using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+            dbConnection.Open();
 
-       
+            var sql = "DELETE FROM \"TodoItems\" WHERE \"Id\" = @Id";
+            return dbConnection.Execute(sql, new { Id = id }) > 0;
+        }
     }
 }

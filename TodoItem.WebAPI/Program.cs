@@ -11,15 +11,18 @@ builder.Services.AddControllers();
 
 //builder.Services.AddDbContext<TodoItemContext>(opt =>
 //    opt.UseInMemoryDatabase("TodoList"));
-builder.Services.AddDbContext<TodoItemContext>(opt =>
-    opt.UseNpgsql(builder.Configuration.GetConnectionString("todoItem_Postgres_Db")));
+//builder.services.adddbcontext<todoitemcontext>(opt =>
+//    opt.usenpgsql(builder.configuration.getconnectionstring("todoitem_postgres_db")));
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //DI 
 builder.Services.AddScoped<ITodoItemService, TodoItemService>();
-builder.Services.AddScoped<ITodoItemRepository, TodoItemRepository>();
+builder.Services.AddScoped<ITodoItemRepository, TodoItemRepository>(sp =>
+    new TodoItemRepository(builder.Configuration.GetConnectionString("todoItem_Postgres_Db")
+));
+
 
 var app = builder.Build();
 

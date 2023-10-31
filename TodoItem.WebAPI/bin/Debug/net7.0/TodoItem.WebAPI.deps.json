@@ -16,6 +16,14 @@
           "TodoItem.WebAPI.dll": {}
         }
       },
+      "Dapper/2.1.15": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.15.52653"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/7.0.13": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -178,6 +186,7 @@
       },
       "TodoItem.Repository/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.15",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11",
           "TodoItem.Shared": "1.0.0"
         },
@@ -205,6 +214,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.1.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1aWSAosZymEM+mRwfrXteRIN74/JTUjqj9B/KqEbanH6vfUKy9D9cemRN0q1ZOEfSB7d1PpFTpVOCbf2Uv70Og==",
+      "path": "dapper/2.1.15",
+      "hashPath": "dapper.2.1.15.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.13": {
       "type": "package",
