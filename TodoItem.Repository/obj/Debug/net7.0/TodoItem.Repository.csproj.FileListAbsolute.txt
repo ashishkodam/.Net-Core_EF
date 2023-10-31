@@ -1,0 +1,17 @@
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\bin\Debug\net7.0\TodoItem.Repository.deps.json
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\bin\Debug\net7.0\TodoItem.Repository.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\bin\Debug\net7.0\TodoItem.Repository.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\bin\Debug\net7.0\TodoItem.Shared.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\bin\Debug\net7.0\TodoItem.Shared.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.csproj.AssemblyReference.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.AssemblyInfoInputs.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.AssemblyInfo.cs
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.csproj.CopyComplete
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\refint\TodoItem.Repository.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\ref\TodoItem.Repository.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\bin\Debug\net7.0\TodoItem.Repository.runtimeconfig.json
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Repository\obj\Debug\net7.0\TodoItem.Repository.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\bin\Debug\net7.0\TodoItem.Shared.deps.json
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\bin\Debug\net7.0\TodoItem.Shared.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\bin\Debug\net7.0\TodoItem.Shared.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\TodoItem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\TodoItem.Shared.AssemblyInfoInputs.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\TodoItem.Shared.AssemblyInfo.cs
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\TodoItem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\TodoItem.Shared.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\refint\TodoItem.Shared.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\TodoItem.Shared.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Shared\obj\Debug\net7.0\ref\TodoItem.Shared.dll

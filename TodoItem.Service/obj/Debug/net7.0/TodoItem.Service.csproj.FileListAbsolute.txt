@@ -1,0 +1,17 @@
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Service.deps.json
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Service.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Service.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Repository.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Shared.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Repository.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\bin\Debug\net7.0\TodoItem.Shared.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.csproj.AssemblyReference.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.AssemblyInfoInputs.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.AssemblyInfo.cs
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.csproj.CoreCompileInputs.cache
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.csproj.CopyComplete
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\refint\TodoItem.Service.dll
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\TodoItem.Service.pdb
+C:\Users\ashis\OneDrive\Desktop\ASP .Net\TodoItemProject\TodoItem.Service\obj\Debug\net7.0\ref\TodoItem.Service.dll
